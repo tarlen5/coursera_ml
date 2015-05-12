@@ -39,10 +39,10 @@ m = size(X, 1);
 sel = randperm(size(X, 1));
 sel = sel(1:100);
 
-displayData(X(sel, :));
+#displayData(X(sel, :));
 
-fprintf('Program paused. Press enter to continue.\n');
-pause;
+#fprintf('Program paused. Press enter to continue.\n');
+#pause;
 
 
 %% ================ Part 2: Loading Parameters ================
@@ -69,19 +69,26 @@ nn_params = [Theta1(:) ; Theta2(:)];
 %  first so that it will be easier for you to debug. Later, in part 4, you
 %  will get to implement the regularized cost.
 %
-fprintf('\nFeedforward Using Neural Network ...\n')
+
+
+
+%//////////////// MY COMMENT /////////////////////
+%fprintf('\nFeedforward Using Neural Network ...\n')
 
 % Weight regularization parameter (we set this to 0 here).
-lambda = 0;
+%lambda = 0;
 
-J = nnCostFunction(nn_params, input_layer_size, hidden_layer_size, ...
-                   num_labels, X, y, lambda);
+%J = nnCostFunction(nn_params, input_layer_size, hidden_layer_size, ...
+%                   num_labels, X, y, lambda);
 
-fprintf(['Cost at parameters (loaded from ex4weights): %f '...
-         '\n(this value should be about 0.287629)\n'], J);
+%fprintf(['Cost at parameters (loaded from ex4weights): %f '...
+%         '\n(this value should be about 0.287629)\n'], J);
 
-fprintf('\nProgram paused. Press enter to continue.\n');
-pause;
+%fprintf('\nProgram paused. Press enter to continue.\n');
+%pause;
+%/////////////////////////////////////////////////
+
+
 
 %% =============== Part 4: Implement Regularization ===============
 %  Once your cost function implementation is correct, you should now
