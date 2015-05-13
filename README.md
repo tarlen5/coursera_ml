@@ -13,3 +13,8 @@ Problem sets and assignments for the coursera machine learning course by Prof. A
 ### Unit 9: Assignment 4
 * Neural Networks Learning
 
+### Unit 10: Assignment 5
+* Regularized Linear Regression Bias vs. Variance
+
+### Unit 12: Assignment 6
+* Support Vector Machines
