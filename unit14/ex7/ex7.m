@@ -72,10 +72,10 @@ pause;
 %  kMeans algorithm. In this part, you will run the K-Means algorithm on
 %  the example dataset we have provided. 
 %
-fprintf('\nRunning K-Means clustering on example dataset.\n\n');
+%fprintf('\nRunning K-Means clustering on example dataset.\n\n');
 
 % Load an example dataset
-load('ex7data2.mat');
+%load('ex7data2.mat');
 
 % Settings for running K-Means
 K = 3;
@@ -85,15 +85,15 @@ max_iters = 10;
 % but in practice you want to generate them automatically, such as by
 % settings them to be random examples (as can be seen in
 % kMeansInitCentroids).
-initial_centroids = [3 3; 6 2; 8 5];
+%initial_centroids = [3 3; 6 2; 8 5];
 
 % Run K-Means algorithm. The 'true' at the end tells our function to plot
 % the progress of K-Means
-[centroids, idx] = runkMeans(X, initial_centroids, max_iters, true);
-fprintf('\nK-Means Done.\n\n');
+%[centroids, idx] = runkMeans(X, initial_centroids, max_iters, true);
+%fprintf('\nK-Means Done.\n\n');
 
-fprintf('Program paused. Press enter to continue.\n');
-pause;
+%fprintf('Program paused. Press enter to continue.\n');
+%pause;
 
 %% ============= Part 4: K-Means Clustering on Pixels ===============
 %  In this exercise, you will use K-Means to compress an image. To do this,
