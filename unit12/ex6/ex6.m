@@ -3,7 +3,7 @@
 %
 %  Instructions
 %  ------------
-% 
+%
 %  This file contains code that helps you get started on the
 %  exercise. You will need to complete the following functions:
 %
@@ -20,18 +20,18 @@
 clear ; close all; clc
 
 %% =============== Part 1: Loading and Visualizing Data ================
-%  We start the exercise by first loading and visualizing the dataset. 
+%  We start the exercise by first loading and visualizing the dataset.
 %  The following code will load the dataset into your environment and plot
 %  the data.
 %
 
 fprintf('Loading and Visualizing Data ...\n')
 
-% Load from ex6data1: 
-% You will have X, y in your environment
+%% Load from ex6data1:
+%% You will have X, y in your environment
 load('ex6data1.mat');
 
-% Plot training data
+%% Plot training data
 plotData(X, y);
 
 fprintf('Program paused. Press enter to continue.\n');
@@ -42,7 +42,7 @@ pause;
 %  decision boundary learned.
 %
 
-% Load from ex6data1: 
+% Load from ex6data1:
 % You will have X, y in your environment
 load('ex6data1.mat');
 
@@ -61,7 +61,7 @@ pause;
 %  You will now implement the Gaussian kernel to use
 %  with the SVM. You should complete the code in gaussianKernel.m
 %
-fprintf('\nEvaluating the Gaussian Kernel ...\n')
+%fprintf('\nEvaluating the Gaussian Kernel ...\n')
 
 x1 = [1 2 1]; x2 = [0 4 -1]; sigma = 2;
 sim = gaussianKernel(x1, x2, sigma);
@@ -90,12 +90,12 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 %% ========== Part 5: Training SVM with RBF Kernel (Dataset 2) ==========
-%  After you have implemented the kernel, we can now use it to train the 
+%  After you have implemented the kernel, we can now use it to train the
 %  SVM classifier.
-% 
+%
 fprintf('\nTraining SVM with RBF Kernel (this may take 1 to 2 minutes) ...\n');
 
-% Load from ex6data2: 
+% Load from ex6data2:
 % You will have X, y in your environment
 load('ex6data2.mat');
 
