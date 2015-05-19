@@ -27,7 +27,7 @@ clear ; close all; clc
 %
 fprintf('Visualizing example dataset for PCA.\n\n');
 
-%  The following command loads the dataset. You should now have the 
+%  The following command loads the dataset. You should now have the
 %  variable X in your environment
 load ('ex7data1.mat');
 
