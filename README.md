@@ -18,3 +18,9 @@ Problem sets and assignments for the coursera machine learning course by Prof. A
 
 ### Unit 12: Assignment 6
 * Support Vector Machines
+
+### Unit 14: Assignment 7
+* Image Processing with K-means Clustering and Principal Component Analysis
+
+### Unit 16: Assignment 8
+* Anomaly Detection and Recommender Systems for Movie recommendations
