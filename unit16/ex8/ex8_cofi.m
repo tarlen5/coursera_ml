@@ -18,13 +18,13 @@
 %% =============== Part 1: Loading movie ratings dataset ================
 %  You will start by loading the movie ratings dataset to understand the
 %  structure of the data.
-%  
+%
 fprintf('Loading movie ratings dataset.\n\n');
 
 %  Load data
 load ('ex8_movies.mat');
 
-%  Y is a 1682x943 matrix, containing ratings (1-5) of 1682 movies on 
+%  Y is a 1682x943 matrix, containing ratings (1-5) of 1682 movies on
 %  943 users
 %
 %  R is a 1682x943 matrix, where R(i,j) = 1 if and only if user j gave a
@@ -45,7 +45,7 @@ pause;
 %% ============ Part 2: Collaborative Filtering Cost Function ===========
 %  You will now implement the cost function for collaborative filtering.
 %  To help you debug your cost function, we have included set of weights
-%  that we trained on that. Specifically, you should complete the code in 
+%  that we trained on that. Specifically, you should complete the code in
 %  cofiCostFunc.m to return J.
 
 %  Load pre-trained weights (X, Theta, num_users, num_movies, num_features)
@@ -128,22 +128,22 @@ my_ratings = zeros(1682, 1);
 
 % Check the file movie_idx.txt for id of each movie in our dataset
 % For example, Toy Story (1995) has ID 1, so to rate it "4", you can set
-my_ratings(1) = 4;
+my_ratings(1) = 5;
 
 % Or suppose did not enjoy Silence of the Lambs (1991), you can set
-my_ratings(98) = 2;
+my_ratings(98) = 5;
 
 % We have selected a few movies we liked / did not like and the ratings we
 % gave are as follows:
-my_ratings(7) = 3;
+%my_ratings(7) = 3;
 my_ratings(12)= 5;
-my_ratings(54) = 4;
+%my_ratings(54) = 4;
 my_ratings(64)= 5;
-my_ratings(66)= 3;
+%my_ratings(66)= 3;
 my_ratings(69) = 5;
 my_ratings(183) = 4;
 my_ratings(226) = 5;
-my_ratings(355)= 5;
+%my_ratings(355)= 5;
 
 fprintf('\n\nNew user ratings:\n');
 for i = 1:length(my_ratings)

@@ -47,6 +47,11 @@ J = 1.0/2.0*sum(sum(errorSq.*R,1));
 X_grad = (error.*R)*Theta;
 Theta_grad = (error.*R)'*X;
 
+% Add regularization:
+J += lambda/2.0* (sum(sum(Theta.^2)) + sum(sum(X.^2)));
+
+X_grad += lambda*X;
+Theta_grad += lambda*Theta;
 
 % =============================================================
 
