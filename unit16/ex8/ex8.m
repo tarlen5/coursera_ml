@@ -71,7 +71,7 @@ ylabel('Throughput (mb/s)');
 %% ================== Part 3: Find Outliers ===================
 %  Now you will find a good epsilon threshold using a cross-validation set
 %  probabilities given the estimated Gaussian distribution
-% 
+%
 
 pval = multivariateGaussian(Xval, mu, sigma2);
 
