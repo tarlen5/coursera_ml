@@ -1,8 +1,10 @@
 # coursera_ml
-Problem sets and assignments for the coursera machine learning course by Prof. Andrew Ng, completed in octave/matlab.
+Problem sets and assignments for the coursera machine learning course by Stanford Prof. Andrew Ng, completed in octave/matlab. Secondly, these problems have been implemented and expanded for my own usage and testing purposes in python using the sckikit-learn library.
 
-### Unit 4: Assignment 1
-* Implemented Linear Regression ML Algorithm
+### Unit 4: Project 1
+* Implemented Linear Regression in several ways:
+  1. with one variable to predict profits for a food truck
+  2. with multiple variables to predict housing prices in Portland, Oregon.
 
 ### Unit 6: Assignment 2
 * Implemented Logistic Regression
