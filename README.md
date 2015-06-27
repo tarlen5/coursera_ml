@@ -2,9 +2,15 @@
 Problem sets and assignments for the coursera machine learning course by Stanford Prof. Andrew Ng, completed in octave/matlab. Secondly, these problems have been implemented and expanded for my own usage and testing purposes in python using the sckikit-learn library.
 
 ### Unit 4: Project 1
-* Implemented Linear Regression in several ways:
-  1. with one variable to predict profits for a food truck
-  2. with multiple variables to predict housing prices in Portland, Oregon.
+* Implemented Linear Regression in several scenarios:
+  * with one variable to predict profits for a food truck
+  * with multiple variables to predict housing prices in Portland, Oregon.
+* Both were implemented in octave/matlab for the course work and in Python using sklearn
+* Files completed:
+  * in ex1/
+    * `warmUpExercise.m`, `plotData.m`, `gradientDescent.m`, `computeCost.m`
+  * ex1_sklearn/
+    * `food_truck_profits.py`, `housing_prices.py`
 
 ### Unit 6: Assignment 2
 * Implemented Logistic Regression
