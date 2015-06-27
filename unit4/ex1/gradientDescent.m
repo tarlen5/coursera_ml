@@ -14,21 +14,16 @@ function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
     %               theta.
     %
     % Hint: While debugging, it can be useful to print out the values
-    %of the cost function (computeCost) and gradient here.
+    % of the cost function (computeCost) and gradient here.
     %
     size(X);      % 97 x 2
     size(theta);  % 2 x 1
     size(y);      % 97 x 1
     h = X*theta;  % 97 x 1
-    %X(1)
-    %X(2)
+
     theta(1) = theta(1) - (alpha/m) * sum((h - y).*X(:,1));
     theta(2) = theta(2) - (alpha/m) * sum((h - y).*X(:,2));
 
-    %printf("Cost: \t");
-    %computeCost(X, y, theta);
-
-    % ============================================================
 
     % Save the cost J in every iteration
     J_history(iter) = computeCost(X, y, theta);
@@ -36,8 +31,3 @@ function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
   end
 
 end
-
-% Local Variables:
-% comment-start: "%"
-% comment-column: 0
-% End:

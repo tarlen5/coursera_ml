@@ -81,7 +81,11 @@ fprintf('For population = 35,000, we predict a profit of %f\n',...
     predict1*10000);
 predict2 = [1, 7] * theta;
 fprintf('For population = 70,000, we predict a profit of %f\n',...
-    predict2*10000);
+        predict2*10000);
+
+% My addition:
+predict3 = [1, 15] * theta;
+fprintf('For a population = 150,000, we predict a profit of %f\n',predict3*10000);
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
