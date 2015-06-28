@@ -1,5 +1,5 @@
 # coursera_ml
-Problem sets and assignments for the coursera machine learning course taught by Stanford Prof. Andrew Ng, completed in **octave/matlab**. Secondly, these problems have been expanded on for my own usage and development purposes in **python using the sckikit-learn library**.
+Problem sets and assignments for the coursera machine learning course taught by Stanford Prof. Andrew Ng, completed in **octave/matlab**. Secondly, these problems have been expanded on for my own usage and development purposes in **python using the scikit-learn library**.
 
 ### Unit 4: *Project 1-Linear Regression*
 * Implemented a Linear Regression model to make predictions in several scenarios:
