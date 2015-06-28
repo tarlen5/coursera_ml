@@ -23,7 +23,7 @@ Problem sets and assignments for the coursera machine learning course taught by 
 
 ### Unit 8: *Project 3-Image Processing with Multi-class Classification and Neural Networks*
 * Implementations: One-vs-all logistic regression and neural networks to identify sample of hand-written digit examples.
-  * One-vs-all logistic regression implemente in octave and python with sklearn.
+  * One-vs-all logistic regression implemented in octave and python with sklearn.
   * Neural network feedforward propagation was performed on a model that already had the network parameters trained for us.
 * Training set: 5000 examples of handwritten digits, which is a subset of the MNIST handwritten digit dataset (http://yann.lecun.com/exdb/mnist/).
 * Files completed:
@@ -31,8 +31,15 @@ Problem sets and assignments for the coursera machine learning course taught by 
   * in ex3_sklearn/: `lrDigitRecog.py`
    * TO DO: `nnDigitRecog.py` (figure out which python framework to do neural network classification. Probably the `Pylearn2` library).
 
-### Unit 9: Assignment 4
-* Neural Networks Learning
+### Unit 9: *Project 4-Image Processing Classification with Neural Networks*
+* Dataset and learned hidden parameters (`Theta1` and `Theta2`) are same as in *Project 3* 
+* In this project, we implemented
+  * regularized cost function
+  * backpropagation algorithm to compute gradient of nn cost function
+  * A number of additional features were implemented as well, including randomizing the initial weights and checking the gradient
+  * Files completed (octave/matlab only):
+   * ex4/: `sigmoidGradient.m`, `randInitializeWeights.m`, `nnCostFunction.m` (bulk of work here)
+* TO DO: (To extend this assigment and implement in python) Implement the neural network training and predictions, using `Pylearn2` or similar.
 
 ### Unit 10: Assignment 5
 * Regularized Linear Regression Bias vs. Variance
