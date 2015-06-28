@@ -33,12 +33,21 @@ num_labels = 10;          % 10 labels, from 1 to 10
 fprintf('Loading and Visualizing Data ...\n')
 
 load('ex3data1.mat'); % training data stored in arrays X, y
-m = size(X, 1);
+m = size(X, 1)
+
+
+#size(y)
+#pause;
+#fprintf('Saving training data to hdf5...');
+#save("-float-hdf5","ex3data1.hdf5","X","y");
+
 
 % Randomly select 100 data points to display
 rand_indices = randperm(m);
+%rand_indices(1)
 sel = X(rand_indices(1:100), :);
 
+%displayData(X(1,:));
 displayData(sel);
 
 fprintf('Program paused. Press enter to continue.\n');

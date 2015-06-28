@@ -50,17 +50,10 @@ X = [ones(m, 1) X];
 %
 
 printf("sizes: ");
-%size(all_theta)
-%m
-%n
-%size(X)
 fprintf('num_labels: %d\n',num_labels);
 
 for c = 1:num_labels
   initial_theta = zeros(n+1,1);
-  %printf('Initial theta size:\n')
-  %size(initial_theta)
-  %size(y)
 
   options = optimset('GradObj', 'on', 'MaxIter', 50);
 
@@ -76,11 +69,6 @@ for c = 1:num_labels
   all_theta(c,:) = theta(:);
 
 end
-
-
-
-
-% =========================================================================
 
 
 end
