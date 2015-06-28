@@ -13,12 +13,12 @@ Problem sets and assignments for the coursera machine learning course taught by 
     * `food_truck_profits.py`, `housing_prices.py`
 
 ### Unit 6: Project 2-Logistic Regression
-1. To model student acceptance rates at a university
-2. To model whether microchips from a fabrication plant passes quality assurance
+1. To model student acceptance rates at a university (linear model/decision boundary)
+2. To model whether microchips from a fabrication plant passes quality assurance (non-linear model/decision boundary) (note: Not completed in sklearn, only in octave/matlab.)
 
-* Both projects completed in `octave/matlab` for the course work and in `Python using sklearn`
+* Projects completed in `octave/matlab` for the course work and in `Python using sklearn`
 * files completed in ex2/: `plotData.m`, `sigmoid.m`, `costFunction.m`, `predict.m`, `costFunctionReg.m`
-* files completed in ex2_sklearn/: `university_admissions.py`, `quality_assurance.py`
+* files completed in ex2_sklearn/: `university_admissions.py`
 
 ### Unit 8: Assignment 3
 * Multi-class Classification and Neural Networks
