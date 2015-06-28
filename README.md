@@ -31,7 +31,7 @@ Problem sets and assignments for the coursera machine learning course taught by 
   * in ex3_sklearn/: `lrDigitRecog.py`
    * TO DO: `nnDigitRecog.py` (figure out which python framework to do neural network classification. Probably the `Pylearn2` library).
 
-### Unit 9: *Project 4-Image Processing Classification with Neural Networks*
+### Unit 9: *Project 4-Image Classification with Neural Networks*
 * Dataset and learned hidden parameters (`Theta1` and `Theta2`) are same as in *Project 3* 
 * In this project, we implemented
   * regularized cost function
@@ -41,8 +41,11 @@ Problem sets and assignments for the coursera machine learning course taught by 
    * ex4/: `sigmoidGradient.m`, `randInitializeWeights.m`, `nnCostFunction.m` (bulk of work here)
 * TO DO: (To extend this assigment and implement in python) Implement the neural network training and predictions, using `Pylearn2` or similar.
 
-### Unit 10: Assignment 5
-* Regularized Linear Regression Bias vs. Variance
+### Unit 10: *Project 5-Bias/Variance Studies with Regularized Linear Regression*
+* Regularized linear regression to predict amount of water flowing into/out of a dam using change in water level in a reservoir.
+* Diagnostics of debugging learning algorithms and effects of bias vs. variance.
+* Dataset division into *training set*, *cross validation set*, and *test set* is introduced and implemented.
+* 
 
 ### Unit 12: Assignment 6
 * Support Vector Machines
