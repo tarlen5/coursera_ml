@@ -23,11 +23,13 @@ Problem sets and assignments for the coursera machine learning course taught by 
 
 ### Unit 8: *Project 3-Image Processing with Multi-class Classification and Neural Networks*
 * Implementations: One-vs-all logistic regression and neural networks to identify sample of hand-written digit examples.
-  * Implemented in octave/matlab for the assignment, then in python and sklearn.
+  * One-vs-all logistic regression implemente in octave and python with sklearn.
+  * Neural network feedforward propagation was performed on a model that already had the network parameters trained for us.
 * Training set: 5000 examples of handwritten digits, which is a subset of the MNIST handwritten digit dataset (http://yann.lecun.com/exdb/mnist/).
 * Files completed:
   * in ex3/: `lrCostFunction.m`, `oneVsAll.m`, `predictOneVsAll.m`, `predict.m`
-  * in ex3_sklearn/: `lrDigitRecog.py`, `nnDigitRecog.py`
+  * in ex3_sklearn/: `lrDigitRecog.py`
+   * TO DO: `nnDigitRecog.py` (figure out which python framework to do neural network classification. Probably the `Pylearn2` library).
 
 ### Unit 9: Assignment 4
 * Neural Networks Learning
