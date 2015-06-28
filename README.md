@@ -20,8 +20,10 @@ Problem sets and assignments for the coursera machine learning course taught by 
 * files completed in ex2/: `plotData.m`, `sigmoid.m`, `costFunction.m`, `predict.m`, `costFunctionReg.m`
 * files completed in ex2_sklearn/: `university_admissions.py`
 
-### Unit 8: Assignment 3
-* Multi-class Classification and Neural Networks
+### Unit 8: Project 3-Multi-class Classification and Neural Networks
+* one-vs-all logistic regression and neural networks to recognize hand-written digits, in image processing.
+* Training set: 5000 examples of handwritten digits, which is a subset of the MNIST handwritten digit dataset (http://yann.lecun.com/exdb/mnist/).
+* 
 
 ### Unit 9: Assignment 4
 * Neural Networks Learning
