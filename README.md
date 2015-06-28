@@ -1,7 +1,7 @@
 # coursera_ml
 Problem sets and assignments for the coursera machine learning course taught by Stanford Prof. Andrew Ng, completed in **octave/matlab**. Secondly, these problems have been expanded on for my own usage and development purposes in **python using the sckikit-learn library**.
 
-### Unit 4: Project 1-Linear Regression
+### Unit 4: *Project 1-Linear Regression*
 * Implemented a Linear Regression model to make predictions in several scenarios:
   * with one variable to predict profits for a food truck
   * with multiple variables to predict housing prices in Portland, Oregon.
@@ -12,18 +12,22 @@ Problem sets and assignments for the coursera machine learning course taught by 
   * ex1_sklearn/
     * `food_truck_profits.py`, `housing_prices.py`
 
-### Unit 6: Project 2-Logistic Regression
+### Unit 6: *Project 2-Logistic Regression*
 1. To model student acceptance rates at a university (linear model/decision boundary)
 2. To model whether microchips from a fabrication plant passes quality assurance (non-linear model/decision boundary) (note: Not completed in sklearn, only in octave/matlab.)
 
 * Projects completed in `octave/matlab` for the course work and in `Python using sklearn`
-* files completed in ex2/: `plotData.m`, `sigmoid.m`, `costFunction.m`, `predict.m`, `costFunctionReg.m`
-* files completed in ex2_sklearn/: `university_admissions.py`
+* files completed 
+  * in ex2/: `plotData.m`, `sigmoid.m`, `costFunction.m`, `predict.m`, `costFunctionReg.m`
+  * in ex2_sklearn/: `university_admissions.py`
 
-### Unit 8: Project 3-Multi-class Classification and Neural Networks
-* one-vs-all logistic regression and neural networks to recognize hand-written digits, in image processing.
+### Unit 8: *Project 3-Image Processing with Multi-class Classification and Neural Networks*
+* Implementations: One-vs-all logistic regression and neural networks to identify sample of hand-written digit examples.
+  * Implemented in octave/matlab for the assignment, then in python and sklearn.
 * Training set: 5000 examples of handwritten digits, which is a subset of the MNIST handwritten digit dataset (http://yann.lecun.com/exdb/mnist/).
-* 
+* Files completed:
+  * in ex3/: `lrCostFunction.m`, `oneVsAll.m`, `predictOneVsAll.m`, `predict.m`
+  * in ex3_sklearn/: `lrDigitRecog.py`, `nnDigitRecog.py`
 
 ### Unit 9: Assignment 4
 * Neural Networks Learning
