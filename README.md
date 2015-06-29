@@ -1,5 +1,5 @@
 # coursera_ml
-Problem sets and assignments for the coursera machine learning course taught by Stanford Prof. Andrew Ng, completed in **octave/matlab**. Secondly, these problems have been expanded on for my own usage and development purposes in **python using the scikit-learn library**.
+Programming projects for the Coursera Machine Learning course taught by Stanford Prof. Andrew Ng, completed in **octave/matlab**. I have also implemented some of these projects in **python using the scikit-learn library** for my own research and development purposes.
 
 ### Unit 4: *Project 1-Linear Regression*
 * Implemented a Linear Regression model to make predictions in several scenarios:
@@ -14,10 +14,9 @@ Problem sets and assignments for the coursera machine learning course taught by 
 
 ### Unit 6: *Project 2-Logistic Regression*
 1. To model student acceptance rates at a university (linear model/decision boundary)
-2. To model whether microchips from a fabrication plant passes quality assurance (non-linear model/decision boundary) (note: Not completed in sklearn, only in octave/matlab.)
+2. To model whether microchips from a fabrication plant pass quality assurance (non-linear model/decision boundary) (note: Not completed in sklearn, only in octave/matlab.)
 
-* Projects completed in `octave/matlab` for the course work and in `Python using sklearn`
-* files completed 
+* files completed:
   * in ex2/: `plotData.m`, `sigmoid.m`, `costFunction.m`, `predict.m`, `costFunctionReg.m`
   * in ex2_sklearn/: `university_admissions.py`
 
@@ -33,7 +32,7 @@ Problem sets and assignments for the coursera machine learning course taught by 
 
 ### Unit 9: *Project 4-Image Classification with Neural Networks*
 * Dataset and learned hidden parameters (`Theta1` and `Theta2`) are same as in *Project 3* 
-* In this project, we implemented
+* In this project was implemented
   * regularized cost function
   * backpropagation algorithm to compute gradient of nn cost function
   * A number of additional features were implemented as well, including randomizing the initial weights and checking the gradient
@@ -45,7 +44,10 @@ Problem sets and assignments for the coursera machine learning course taught by 
 * Regularized linear regression to predict amount of water flowing into/out of a dam using change in water level in a reservoir.
 * Diagnostics of debugging learning algorithms and effects of bias vs. variance.
 * Dataset division into *training set*, *cross validation set*, and *test set* is introduced and implemented.
-* 
+* Learning curves are generated
+* Files completed:
+ * ex5/: `linearRegCostFunction.m `, `learningCurve.m`, `polyFeatures.m`, `validationCurve.m`
+* Since these features are done in the *sklearn* library "under the hood", it provided good insights into the implementation details of LinearRegression (and other algorithms) in *sklearn*.
 
 ### Unit 12: Assignment 6
 * Support Vector Machines
