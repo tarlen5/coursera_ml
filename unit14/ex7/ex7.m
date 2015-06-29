@@ -106,10 +106,10 @@ max_iters = 10;
 fprintf('\nRunning K-Means clustering on pixels from an image.\n\n');
 
 %  Load an image of a bird
-A = double(imread('bird_small.png'));
+%A = double(imread('bird_small.png'));
 
 % If imread does not work for you, you can try instead
-%   load ('bird_small.mat');
+load ('bird_small.mat');
 
 A = A / 255; % Divide by 255 so that all values are in the range 0 - 1
 
@@ -168,6 +168,9 @@ subplot(1, 2, 2);
 imagesc(X_recovered)
 title(sprintf('Compressed, with %d colors.', K));
 
+fprintf('Saving images to mat file...\n');
+save('bird_original.mat','A');
+save('bird_compressed.mat','X_recovered');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;

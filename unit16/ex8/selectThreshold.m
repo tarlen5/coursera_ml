@@ -33,8 +33,6 @@ function [bestEpsilon bestF1] = selectThreshold(yval, pval)
 
     F1 = 2*prec*rec/(prec + rec);
 
-    % =============================================================
-
     if F1 > bestF1
       bestF1 = F1;
       bestEpsilon = epsilon;

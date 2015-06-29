@@ -11,7 +11,6 @@ K = size(centroids, 1);
 % You need to return the following variables correctly.
 idx = zeros(size(X,1), 1);
 
-% ====================== YOUR CODE HERE ======================
 
 for i=1:length(idx)
 
@@ -23,7 +22,7 @@ for i=1:length(idx)
   index = 1;
 
   for j=1:K
-    cent = centroids(j,:);    
+    cent = centroids(j,:);
     dist = (x - cent)*(x - cent)';
     if dist < dist_min
       dist_min = dist;
@@ -31,11 +30,9 @@ for i=1:length(idx)
     endif
   endfor
 
-  idx(i) = index;  
+  idx(i) = index;
 
 endfor
-
-% =============================================================
 
 
 end
