@@ -49,10 +49,13 @@ Programming projects for the Coursera Machine Learning course taught by Stanford
  * ex5/: `linearRegCostFunction.m `, `learningCurve.m`, `polyFeatures.m`, `validationCurve.m`
 
 ### Unit 12: *Project 6-Support Vector Machines (SVM) for Spam Classification*
-* 
+* Data sets with both linear and non-linear decision boundaries
+* Also used cross validation to choose regularization param for gaussian (rbf) kernel on sample data set
+* Trained an SVM on a subset of the SpamAssasin Public Corpus (http://spamassassin.apache.org/publiccorpus/) to create a high acuracy spam filter
+  * Uses a *bag of words* model to perform feature extraction, and SVM for classification.
 * Files completed:
   * ex6/: `gaussianKernel.m`, `dataset3Params.m`, `processEmail.m`, `emailFeatures.m`
-  * ex6_sklearn/: 
+  * ex6_sklearn/: `svmDecBoundary.py`
 
 ### Unit 14: Assignment 7
 * Image Processing with K-means Clustering and Principal Component Analysis
