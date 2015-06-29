@@ -38,7 +38,7 @@ Programming projects for the Coursera Machine Learning course taught by Stanford
   * A number of additional features were implemented as well, including randomizing the initial weights and checking the gradient
   * Files completed (octave/matlab only):
    * ex4/: `sigmoidGradient.m`, `randInitializeWeights.m`, `nnCostFunction.m` (bulk of work here)
-* TO DO: (To extend this assigment and implement in python) Implement the neural network training and predictions, using `Pylearn2` or similar.
+* TO DO: (To extend this assignment and implement in python) Perform neural network training and predictions, using `Pylearn2` or similar.
 
 ### Unit 10: *Project 5-Bias/Variance Studies with Regularized Linear Regression*
 * Regularized linear regression to predict amount of water flowing into/out of a dam using change in water level in a reservoir.
@@ -47,10 +47,12 @@ Programming projects for the Coursera Machine Learning course taught by Stanford
 * Learning curves are generated
 * Files completed:
  * ex5/: `linearRegCostFunction.m `, `learningCurve.m`, `polyFeatures.m`, `validationCurve.m`
-* Since these features are done in the *sklearn* library "under the hood", it provided good insights into the implementation details of LinearRegression (and other algorithms) in *sklearn*.
 
-### Unit 12: Assignment 6
-* Support Vector Machines
+### Unit 12: *Project 6-Support Vector Machines (SVM) for Spam Classification*
+* 
+* Files completed:
+  * ex6/: `gaussianKernel.m`, `dataset3Params.m`, `processEmail.m`, `emailFeatures.m`
+  * ex6_sklearn/: 
 
 ### Unit 14: Assignment 7
 * Image Processing with K-means Clustering and Principal Component Analysis
