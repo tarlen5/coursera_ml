@@ -57,8 +57,20 @@ Programming projects for the Coursera Machine Learning course taught by Stanford
   * ex6/: `gaussianKernel.m`, `dataset3Params.m`, `processEmail.m`, `emailFeatures.m`
   * ex6_sklearn/: `svmDecBoundary.py`
 
-### Unit 14: Assignment 7
-* Image Processing with K-means Clustering and Principal Component Analysis
+### Unit 14: *Project 7-Image Compression with K-Means and PCA for Facial Image representation*
+* Used K-means algorithm to compress a 24-bit color representation of an image with a 16 color representation.
+  * Each pixel was clustered into one of 16 groups, and the RGB color replaced with the closest of these 16 colors.
+  * Compression factor: ~ 6x.
+* Used PCA to reduce dimensions in facial images from 1024 (32x32 pixels) to 100. This is useful primarily for training time consuming algorithms (like nn) on a reduced dataset which may work just as well.
+* Files completed:
+  * ex7/: `pca.m`, `projectData.m`, `recoverData.m`, `computeCentroids.m`, `findClosestCentroids.m`, `kMeansInitCentroids.m`
 
-### Unit 16: Assignment 8
-* Anomaly Detection and Recommender Systems for Movie recommendations
+### Unit 16: *Project 8-Anomaly Detection and Recommendation Systems*
+* Anomaly detection to detect failing servers on a network
+  * Estimated normal operations given data of throughput, latency by fitting a gaussian distribution
+  * Threshold selected from F1 score on CV set.
+* Collaborative filtering to build recommender system for movies
+  * Used a subset of the MovieLens 100k Dataset
+  * computed cost function for CF algorithm
+* Files completed:
+  * ex8/: `estimateGaussian.m`, `selectThreshold.m`, `cofiCostFunc.m`
