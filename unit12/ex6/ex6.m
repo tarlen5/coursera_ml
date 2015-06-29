@@ -31,6 +31,9 @@ fprintf('Loading and Visualizing Data ...\n')
 %% You will have X, y in your environment
 load('ex6data1.mat');
 
+%fprintf('Saving training data to hdf5...');
+%save('-float-hdf5','ex6data1.hdf5','X','y')
+
 %% Plot training data
 plotData(X, y);
 
@@ -83,6 +86,9 @@ fprintf('Loading and Visualizing Data ...\n')
 % You will have X, y in your environment
 load('ex6data2.mat');
 
+%fprintf('Saving training data to hdf5...');
+%save('-float-hdf5','ex6data2.hdf5','X','y')
+
 % Plot training data
 plotData(X, y);
 
@@ -121,6 +127,9 @@ fprintf('Loading and Visualizing Data ...\n')
 % Load from ex6data3: 
 % You will have X, y in your environment
 load('ex6data3.mat');
+
+fprintf('Saving training data to hdf5...\n');
+save('-float-hdf5','ex6data3.hdf5','X','y','Xval','yval')
 
 % Plot training data
 plotData(X, y);

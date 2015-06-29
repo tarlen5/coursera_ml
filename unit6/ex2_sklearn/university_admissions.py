@@ -25,9 +25,9 @@ def plotTraining(df_false, df_true):
     """
 
     sns.regplot("exam1", "exam2", df_false, fit_reg=False,
-               marker="x",
-               scatter_kws={"color": "blue", "s": 50},
-               label="Not Admitted")
+                marker="x",
+                scatter_kws={"color": "blue", "s": 50},
+                label="Not Admitted")
     ax = plt.gca()
     sns.regplot("exam1", "exam2", df_true, fit_reg=False, ax=ax,
                scatter_kws={"color": "red", "s": 50}, label="Admitted")

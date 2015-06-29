@@ -47,7 +47,7 @@ H = 0;
 % Pre-compute the Kernel Matrix since our dataset is small
 % (in practice, optimized SVM packages that handle large datasets
 %  gracefully will _not_ do this)
-% 
+%
 % We have implemented optimized vectorized version of the Kernels here so
 % that the svm training will run faster.
 if strcmp(func2str(kernelFunction), 'linearKernel')

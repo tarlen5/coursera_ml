@@ -22,7 +22,7 @@ word_indices = [];
 % email_contents = email_contents(hdrstart(1):end);
 
 % Lower case
-email_contents = lower(email_contents);
+
 
 % Strip all HTML
 % Looks for any expression that starts with < and ends with > and replace
